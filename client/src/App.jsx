@@ -20,8 +20,7 @@ const App = () => {
     setAnalysisResult(null);
 
     try {
-     
-      const backendUrl = 'http://localhost:3001/analyze-resume'; // Replace with your backend URL in production
+      const backendUrl = 'https://resumeanalyse-ai.onrender.com/analyze-resume'; // Replace with your backend URL in production
 
       const response = await fetch(backendUrl, {
         method: 'POST',
